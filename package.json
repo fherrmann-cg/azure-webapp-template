@@ -1,0 +1,11 @@
+{
+  "name": "{{APP_NAME}}",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cd src/app && npm run dev",
+    "build": "cd src/app && npm run build",
+    "lint": "cd src/app && npm run lint",
+    "test": "cd src/api && npm test"
+  }
+}

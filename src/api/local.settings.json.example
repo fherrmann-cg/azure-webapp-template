@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "KEY_VAULT_URI": "https://kv-fh-{{APP_NAME}}.vault.azure.net/",
+    "AZURE_CLIENT_ID": "<managed-identity-client-id-from-bicep-output>",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "<from-bicep-output-or-azure-portal>"
+  },
+  "Host": {
+    "CORS": "http://localhost:5173",
+    "CORSCredentials": false
+  }
+}

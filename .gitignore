@@ -1,0 +1,37 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+.venv/
+venv/
+*.egg
+
+# Azure Functions
+local.settings.json
+.azure/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+/dist/
+.output/
+
+# OS
+Thumbs.db
